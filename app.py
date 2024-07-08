@@ -10,7 +10,7 @@ df_encoded = joblib.load('encoded_df.pkl')
 scaler = joblib.load('scaler.pkl')
 
 def main():
-    st.subheader('Welcome to ML Section')
+    st.subheader('Welcome to Song Popularity Prediction')
 
     song_duration_ms = st.number_input('Song Durations (ms)',0,500000)
     acousticness = st.number_input('acousticness',format="%.6f" )
