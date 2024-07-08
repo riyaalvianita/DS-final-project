@@ -4,8 +4,6 @@ import pandas as pd
 import numpy as np
 import joblib
 import os
-from google.cloud import storage
-
 
 # Memuat encoder dan scaler
 df_encoded = joblib.load('encoded_df.pkl')
